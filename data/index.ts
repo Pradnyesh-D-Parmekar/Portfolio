@@ -74,7 +74,7 @@ export const navItems = [
       id: 1,
       title: "WanderLand - Full-Stack Unexplored destinations Lodging Website",
       des: "Explore the wonders of our World with this stack of unexplored Destinations on our planet Earth.",
-      img: "/WanderLand-SS.png",
+      img: "/Wanderland-SS.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "http://wanderland-proj.onrender.com/listings",
     },
