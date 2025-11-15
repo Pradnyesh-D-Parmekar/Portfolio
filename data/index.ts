@@ -185,7 +185,7 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-      link:"github.com/Pradnyesh-D-Parmekar",
+      link:"https://github.com/Pradnyesh-D-Parmekar",
     },
     {
       id: 2,
@@ -195,6 +195,6 @@ export const navItems = [
     {
       id: 3,
       img: "/link.svg",
-      link:"www.linkedin.com/in/pradnyeshparmekar/",
+      link:"https://www.linkedin.com/in/pradnyeshparmekar/",
     },
   ];
