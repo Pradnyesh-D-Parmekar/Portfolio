@@ -70,21 +70,22 @@ export const navItems = [
   ];
   
   export const projects = [
+    
     {
       id: 1,
-      title: "WanderLand - Full-Stack Unexplored destinations Lodging Website",
-      des: "Explore the wonders of our World with this stack of unexplored Destinations on our planet Earth.",
-      img: "/Wanderland-SS.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "http://wanderland-proj.onrender.com/listings",
-    },
-    {
-      id: 2,
       title: "Dashboard - Saas Expense Manager App",
       des: "A REAL Software-as-a-Service app with csv Upload functionality to provide data and track your expenses.",
       img: "/Dashboard-SS.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://dashboard-finance-omega.vercel.app/",
+    },
+    {
+      id: 2,
+      title: "WanderLand - Full-Stack Unexplored destinations Lodging Website",
+      des: "Explore the wonders of our World with this stack of unexplored Destinations on our planet Earth.",
+      img: "/Wanderland-SS.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      link: "http://wanderland-proj.onrender.com/listings",
     },
     {
       id: 3,
