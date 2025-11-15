@@ -94,6 +94,14 @@ export const navItems = [
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "/#",
     },
+      {
+      id: 3,
+      title: "Finger Flex Fury - 2d Fight Game Using Hand Gestures ",
+      des: "Created an Python Game with OpenCV implementation to mimic gestures to fight scenarios",
+      img: "/FingerFlexFury.png",
+      iconLists: [],
+      link: "/#",
+    },
   ];
   
   export const testimonials = [
