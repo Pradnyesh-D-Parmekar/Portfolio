@@ -5,9 +5,32 @@ import { ThemeProvider } from "@/components/provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
+import type { Metadata } from "next";
+
 export const metadata: Metadata = {
-  title: "Pradnyesh's Portfolio",
-  description: "Modern & Minimalist MERN & AI Developer Portfolio of Pradnyesh Parmekar",
+  title: "Pradnyesh | Full-Stack Developer & AI Researcher",
+  description: "M.Sc. Data Science & AI student specializing in Next.js 15, MERN, and Deepfake Detection. Explore my architectural AI and real-time systems.",
+  keywords: ["Pradnyesh Parmekar", "MERN Stack", "Next.js 15", "AI Developer India", "Data Science Student"],
+  authors: [{ name: "Pradnyesh Parmekar" }],
+  openGraph: {
+    title: "Pradnyesh | Full-Stack & AI Engineer",
+    description: "Building the future with Next.js and Generative AI.",
+    url: "https://pradnyesh.com",
+    siteName: "Pradnyesh Portfolio",
+    images: [
+      {
+        url: "/og-image.png", // 
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
