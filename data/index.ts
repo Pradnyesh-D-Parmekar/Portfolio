@@ -70,17 +70,32 @@ export const navItems = [
   ];
   
   export const projects = [
-    
     {
       id: 1,
-      title: "Dashboard - Saas Expense Manager App",
-      des: "A REAL Software-as-a-Service app with csv Upload functionality to provide data and track your expenses.",
-      img: "/Dashboard-SS.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://dashboard-finance-omega.vercel.app/",
+      title: "AI-Driven Architectural Portfolio & ERP",
+      des: "A high-performance platform for a construction firm featuring a RAG-based AI Consultant (Gemini 3 Flash) and a 95% optimized image pipeline.",
+      img: "/Client_v1.png", 
+      iconLists: ["/next.svg", "/tail.svg", "/mongodb.svg", "/gemini.svg", "/fm.svg"],
+      link: "https://construction.pradnyesh.com",
     },
     {
       id: 2,
+      title: "WanderLand V2 - Premium Travel SaaS",
+      des: "A complete rebuild of the original travel platform using Next.js 15. Features advanced auth, dynamic map clusters, and server-side rendering for SEO.",
+      img: "/Wanderland_v2.png",
+      iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg", "/mongodb.svg"],
+      link: "https://wanderland.pradnyesh.com",
+    },
+    {
+      id: 3,
+      title: "Finger Flex Fury - 2d Fight Game Using Hand Gestures ",
+      des: "Created an Python Game with OpenCV implementation to mimic gestures to fight scenarios",
+      img: "/FingerFlexFury.png",
+      iconLists: [],
+      link: "/#",
+    },
+    {
+      id: 4,
       title: "WanderLand - Full-Stack Unexplored destinations Lodging Website",
       des: "Explore the wonders of our World with this stack of unexplored Destinations on our planet Earth.",
       img: "/Wanderland-SS.png",
@@ -88,20 +103,12 @@ export const navItems = [
       link: "http://wanderland-proj.onrender.com/listings",
     },
     {
-      id: 3,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/#",
-    },
-      {
-      id: 3,
-      title: "Finger Flex Fury - 2d Fight Game Using Hand Gestures ",
-      des: "Created an Python Game with OpenCV implementation to mimic gestures to fight scenarios",
-      img: "/FingerFlexFury.png",
-      iconLists: [],
-      link: "/#",
+      id: 5,
+      title: "Dashboard - Saas Expense Manager App",
+      des: "A REAL Software-as-a-Service app with csv Upload functionality to provide data and track your expenses.",
+      img: "/Dashboard-SS.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      link: "https://dashboard-finance-omega.vercel.app/",
     },
   ];
   
