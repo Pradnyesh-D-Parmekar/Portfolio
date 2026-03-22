@@ -5,8 +5,6 @@ import { ThemeProvider } from "@/components/provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
-import type { Metadata } from "next";
-
 export const metadata: Metadata = {
   title: "Pradnyesh | Full-Stack Developer & AI Researcher",
   description: "M.Sc. Data Science & AI student specializing in Next.js 15, MERN, and Deepfake Detection. Explore my architectural AI and real-time systems.",
